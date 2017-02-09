@@ -1,0 +1,23 @@
+Snakes and Ladders Solution
+
+Run the program with Ruby snakes_and_ladders.rb
+
+
+What is different from the way you tried to solve the problem?
+  - There are only 9 tiles on the board
+  - It actually takes input and runs the game. Requires the players to hit the enter key to 'roll the dice'
+  - What is log?
+
+Are there any parts you don't understand?
+  - Dice class: fine
+  - Player class: fine
+  - Snakes and ladders class: Why are we creating new instances of board, player and game in the class file? I thought we just did this in the test file.
+  - Modifier?
+  - Go over the last three methods in game.rb
+  - Command in run_specs.sh looks new.
+
+Testing - why has the dice class not been tested?
+  - Because you can't test for randomness?
+
+Why is all of the 'puts'-ing in one viewer class?
+  - To keep the 'interactive' part of the game separate from the 'framework'
